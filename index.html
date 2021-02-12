@@ -1,0 +1,132 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel='stylesheet' href='https://fonts.googleapis.com/css?family=Roboto&amp;display=swap'>
+    <link rel='stylesheet' href='https://fonts.googleapis.com/icon?family=Material+Icons'>
+    <link rel="stylesheet" href="./style.css">
+    <title>Document</title>
+</head>
+
+<body>
+    <div class="container">
+        <div class="page four">
+            <div class="back">
+                <img src="./img/001.gif" id='gift' alt="" srcset="">
+                <p id="lyrics"></p>
+            </div>
+            <div class="front">
+                <p class="lol"> 💖 I wouldn’t try to throw myself away
+                    If you asked me, I’d say
+                    To be careful, my love
+                    At death we’ll leave the same
+                    If you want me to stay
+                    Don’t keep me waiting for it 💖 </p>
+            </div>
+        </div>
+        <div class="page three">
+            <div class="back">
+                <img class="svg-image" src="./img/svg/003.svg" width="300px" alt="" srcset="">
+            </div>
+            <div class="front">
+                <img class="svg-image" src="./img/svg/002.svg" width="300px" alt="" srcset="">
+            </div>
+        </div>
+        <div class="page two">
+            <div class="back">
+                <p class="lol"> 💖And then I looked up at the sun
+                    And I could see
+                    Oh, the way that gravity pulls on you and me
+                    And then I looked up at the sky
+                    And saw the sun
+                    And the way that gravity pushes on everyone
+                    On everyone 💖 </p>
+            </div>
+            <div class="front">
+                <p class="lol"> 💖 Now that I've tried to talk to you
+                    And make you understand
+                    All you have to do is close your eyes
+                    And just reach out your hands
+                    And touch me
+                    Hold me close
+                    Don't ever let me go 💖 </p>
+            </div>
+        </div>
+        <div class="page one">
+            <div class="back">
+                <img class="svg-image" src="./img/svg/001.svg" width="300px" alt="" srcset="">
+            </div>
+            <div class="front">
+                <p class="text-init">Dreaming of you when I'm alone
+                    Baby, don't trip, I'm coming home
+                    Kick it with me, I don't care if the sun is gone
+                    Baby, don't cry when I am gone
+                    Promise you're everything I want
+                    This is for you, baby, listen, it's your song
+                    <br>
+                    Oye cariño, solo pienso en ti
+                    When I wake up in the morning until I go back to sleep
+                    How I wish you were mine, I think of you all the time
+                    I always feel like I'm flying, baby, you make me feel fine
+                </p>
+                <span class="next">----></span>
+            </div>
+        </div>
+        <div class="page cover">
+            <div class="back backcover"></div>
+            <div class="front frontcover">
+                <div class="container-heart">
+                    <div class="icon">
+                        <svg version="1.1" class="heart" width="150" viewBox="0 0 15 15" title="heart">
+                            <path d="M13.91,6.75c-1.17,2.25-4.3,5.31-6.07,6.94c-0.1903,0.1718-0.4797,0.1718-0.67,0C5.39,12.06,2.26,9,1.09,6.75
+               C-1.48,1.8,5-1.5,7.5,3.45C10-1.5,16.48,1.8,13.91,6.75z" />
+                        </svg>
+                        <svg version="1.1" class="heart-background" width="150" viewBox="0 0 15 15" title="heart">
+                            <path d="M13.91,6.75c-1.17,2.25-4.3,5.31-6.07,6.94c-0.1903,0.1718-0.4797,0.1718-0.67,0C5.39,12.06,2.26,9,1.09,6.75
+              C-1.48,1.8,5-1.5,7.5,3.45C10-1.5,16.48,1.8,13.91,6.75z" />
+                        </svg>
+                    </div>
+                </div>
+                <p class="title">HAPPY VALENTINE'S DAY</p>
+                <div class="open-container">
+                    <img src="./icons/bookmark.png" alt="">
+                    <span class="title-open">OPEN!!</span>
+                </div>
+            </div>
+        </div>
+        <div class="backfront">
+            <div id="bg">
+                <div id="blackLayer"></div>
+                <!-- <img src="./img/art.jpg"/> -->
+            </div>
+
+            <div id="main">
+                <div id="image">
+                    <img class="cover" src="./img/art_1.jpg" />
+                </div>
+                <div id="player">
+                    <div id="songTitle"></div>
+                    <div id="buttons">
+                        <button id="pre" onclick="pre()"><img src="./icons/Pre.png" height="90%" width="90%" /></button>
+                        <button id="play" onclick="playOrPauseSong()"><img src="./icons/Pause.png" /></button>
+                        <button id="next" onclick="next()"><img src="./icons/Next.png" height="90%" width="90%" /></button>
+                    </div>
+
+                    <div id="seek-bar">
+                        <div id="fill"></div>
+                        <div id="handle"></div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="backward">
+
+        </div>
+    </div>
+    <script src="./script.js"></script>
+</body>
+
+</html>
