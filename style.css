@@ -277,57 +277,6 @@ path {
     width:300px;
 }
 
-@media screen and (max-width: 500px){
-    .container {
-        top: 60%;
-        left: 72%;
-      }
-      .title{
-          font-size: 14px;
-      }
-    .page {
-        height: 275px;
-        width: 175px;
-      }
-      .backward {
-        height: 275px;
-        width: 175px;
-      }
-      .backfront {
-        height: 275px;
-        width: 175px;
-      }
-      .front {
-        height: 275px;
-        width: 175px;
-      }
-      .back {
-        height: 275px;
-        width: 175px;
-      }
-      .page {
-        height: 275px;
-        width: 175px;
-      }
-      .icon svg{
-          width:100px;
-      }
-      .open-container img{
-          width:50px;
-      }
-      .open-container .title-open{
-          bottom: 20px;
-          right: 2px;
-          font-size: 10px;
-      }
-      .container-heart {
-        left: 25%;
-      }
-      .lol{
-          margin-top: 120px;
-          font-size:12px;
-      }
-}
 #bg{
   height: 100%;
   width: 100%;
@@ -466,4 +415,104 @@ path {
   margin-top: 40px;
   font-size: 25px;
   margin-right: 20px;
+}
+
+@media screen and (max-width: 500px){
+    .container {
+        top: 60%;
+        left: 72%;
+      }
+      .title{
+          font-size: 14px;
+      }
+    .page {
+        height: 275px;
+        width: 175px;
+      }
+      .backward {
+        height: 275px;
+        width: 175px;
+      }
+      .backfront {
+        height: 275px;
+        width: 175px;
+      }
+      .front {
+        height: 275px;
+        width: 175px;
+      }
+      .back {
+        height: 275px;
+        width: 175px;
+      }
+      .page {
+        height: 275px;
+        width: 175px;
+      }
+      .icon svg{
+          width:100px;
+      }
+      .open-container img{
+          width:50px;
+      }
+      .open-container .title-open{
+          bottom: 20px;
+          right: 2px;
+          font-size: 10px;
+      }
+      .container-heart {
+        left: 25%;
+      }
+      .lol{
+          margin-top: 120px;
+          font-size:12px;
+      }
+      .text-init{
+        font-size: 11px;
+        margin-top:10px !important;
+      }
+      .next{
+        margin-top: 5px !important;
+        font-size: 12px !important;
+        margin-right: 20px;
+      }
+      .svg-image{
+        margin-top: 80px !important;
+        width: 150px;
+      }
+      #gift{
+        width:150px !important;
+        margin-top: 10px !important;
+      }
+      #lyrics{
+        font-size: 12px !important;
+      }
+      #main {
+        width: 70%;
+      }
+      #image img{
+        height:100px;
+      }
+      #songTitle{
+        font-size: 12px;
+        top:50%;
+      }
+      #seek-bar{
+        width:122px;
+        margin-left: -18px;
+      }
+      #next{
+        width:25px;
+        height: 25px;
+        left:98%;
+      }
+      #pre{
+        width:25px;
+        height: 25px;
+        left:0;
+      }
+      #play{
+        width:40px;
+        height: 40px;
+      }
 }
