@@ -67,7 +67,8 @@ let song = new Audio();
 let currentSong = 0; // it point to the current song
 // 
 window.onload = ()=>{
-playSong()// it will call the function playSong when window is load
+song.src = songs[0];
+song.play(); // play the song
 }
 function playSong() {
   song.src = songs[currentSong] || songs[0];
