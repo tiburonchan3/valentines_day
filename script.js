@@ -71,7 +71,7 @@ window.onload = () => {
 }
 
 function playSong() {
-  song.src = songs[currentSong];
+  song.src = songs[currentSong] || songs[0];
   song.play(); // play the song
 }
 
