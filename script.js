@@ -65,15 +65,16 @@ const giftEl = document.getElementById("gift");
 
 let song = new Audio();
 let currentSong = 0; // it point to the current song
-
-window.onload = () => {
-  playSong(); // it will call the function playSong when window is load
+// 
+window.onload = ()=>{
+playSong()// it will call the function playSong when window is load
 }
-
 function playSong() {
   song.src = songs[currentSong] || songs[0];
   song.play(); // play the song
 }
+
+
 
 function playOrPauseSong() {
   if (song.paused) {
