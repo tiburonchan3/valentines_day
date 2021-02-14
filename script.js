@@ -70,9 +70,6 @@ window.onload = playSong(); // it will call the function playSong when window is
 
 function playSong() {
   song.src = songs[currentSong];
-  songTitle.textContent = songsName[currentSong];
-  giftEl.src = gift[currentSong]
-  lir.textContent = lyrics[currentSong]
   song.play(); // play the song
 }
 
@@ -99,6 +96,9 @@ function next() {
   if (currentSong > 3) {
     currentSong = 0;
   }
+  songTitle.textContent = songsName[currentSong];
+  giftEl.src = gift[currentSong]
+  lir.textContent = lyrics[currentSong]
   playSong();
   document.querySelector("#play img").src = "./icons/Pause.png";
   document.querySelector("#image img").src = poster[currentSong];
@@ -109,6 +109,9 @@ function pre() {
   if (currentSong < 0) {
     currentSong = 3;
   }
+  songTitle.textContent = songsName[currentSong];
+  giftEl.src = gift[currentSong]
+  lir.textContent = lyrics[currentSong]
   playSong();
   document.querySelector("#play img").src = "./icons/Pause.png";
   document.querySelector("#image img").src = poster[currentSong];
